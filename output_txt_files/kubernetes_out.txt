@@ -1,1 +1,16 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Terminal 1
+
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+Terminal 2
+
+NAME                                 READY   STATUS             RESTARTS   AGE
+kube-microservic-d66bd4945-7fz52     1/1     Running            0          6m54s
+kube-microservice-869997b565-w2nwq   0/1     ImagePullBackOff   0          13m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
